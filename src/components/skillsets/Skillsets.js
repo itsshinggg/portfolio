@@ -1,7 +1,7 @@
 import './Skillsets.css';
 
 const Skillsets = () => {
-  return <div>Skillsets</div>;
+  return <section id='skillsets'></section>;
 };
 
 export default Skillsets;

@@ -1,7 +1,7 @@
 import './Works.css';
 
 const Works = () => {
-  return <div>Works!</div>;
+  return <section id='works'></section>;
 };
 
 export default Works;
