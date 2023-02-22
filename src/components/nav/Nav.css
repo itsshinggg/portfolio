@@ -1,25 +1,25 @@
 nav {
-  background: rgba(0, 0, 0, 0.3);
-  width: 100%;
+  background: var(--color-white);
+  width: 120%;
   display: block;
   padding: 3rem 2rem;
   z-index: 2;
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
+  /* position: fixed; */
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
   top: 0;
   display: flex;
   gap: 0.8rem;
-  backdrop-filter: blur(15px);
+  /* backdrop-filter: blur(15px); */
 }
 
 nav a {
-  background: transparent;
-  padding: 2rem;
-  border-radius: 50%;
+  /* background: transparent; */
+  padding: 1rem 3rem;
+  /* border-radius: 50%; */
   display: flex;
-  color: var(--color-light);
-  font-size: 1.1rem;
+  color: var(--color-bg);
+  font-size: 2rem;
 }
 
 nav a:hover {
