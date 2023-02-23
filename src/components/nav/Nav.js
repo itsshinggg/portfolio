@@ -5,7 +5,6 @@ import { AiOutlineHome } from 'react-icons/ai';
 import { VscPerson } from 'react-icons/vsc';
 import { VscFileCode } from 'react-icons/vsc';
 import { SiXcode } from 'react-icons/si';
-import { FcContacts } from 'react-icons/fc';
 
 const Nav = () => {
   const [currentNav, setCurrentNav] = useState('#');
@@ -47,15 +46,6 @@ const Nav = () => {
         className={currentNav === 'works' ? 'active' : ''}
       >
         <SiXcode />
-      </a>
-      <a
-        href='#contacts'
-        onClick={() => {
-          setCurrentNav('contacts');
-        }}
-        className={currentNav === 'contacts' ? 'active' : ''}
-      >
-        <FcContacts />
       </a>
     </nav>
   );

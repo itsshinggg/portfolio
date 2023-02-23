@@ -41,7 +41,9 @@
 }
 
 .certification__icons {
-  padding: 2rem 2rem 0 0;
+  height: auto;
+  max-width: 70%;
+  padding: 2rem 0 0 4rem;
 }
 
 /* tablets */

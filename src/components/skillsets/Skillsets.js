@@ -63,12 +63,40 @@ const Skillsets = () => {
           </div>
         </div>
         <div className='experience__backend'>
-          <h3>Frameworks</h3>
+          <h3>Frameworks & Others</h3>
           <div className='experience__content'>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>React</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Python</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>C#</h4>
+                <small className='text-light'>Prior Experience</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>AWS</h4>
+                <small className='text-light'>Familiar</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>GitHub</h4>
                 <small className='text-light'>Familiar</small>
               </div>
             </article>
@@ -89,12 +117,6 @@ const Skillsets = () => {
                 alt='AWS certification badge'
                 className='certification__icons'
               />
-              <a
-                src='https://www.credly.com/badges/9fa4a9c2-f4b0-4400-8175-bc115722a361?source=linked_in_profile'
-                alt='AWS credential'
-              >
-                Credentials
-              </a>
             </div>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />

@@ -4,7 +4,6 @@ import Header from './components/header/Header';
 import AboutMe from './components/aboutMe/AboutMe';
 import Skillsets from './components/skillsets/Skillsets';
 import Works from './components/works/Works';
-import Contacts from './components/contacts/Contacts';
 import Footer from './components/footer/Footer';
 
 const App = () => {
@@ -15,7 +14,6 @@ const App = () => {
       <AboutMe />
       <Skillsets />
       <Works />
-      <Contacts />
       <Footer />
     </Fragment>
   );

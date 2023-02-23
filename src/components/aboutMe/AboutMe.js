@@ -34,9 +34,20 @@ const AboutMe = () => {
             </article>
           </div>
           <p>
-            dfakjsnfasnd
-            kfnasdnf;lasnd;flnas;ldfna;skdnf;laskndf;lkansd;lfknas;dknf;alskndf;lkasnd;lfknas;lkdnf;askndf;lkn
-            faosifjaso;ijfaoijf asd asdfjas;dofasdfas;odjfasdfsdfojasdfas
+            I'm a first-year graduate student in Computer Science at City
+            University of Seattle.
+          </p>
+          <p>
+            I graduated from the University of Oregon in 2018 with a major in
+            General Science and a minor in Business Administration.
+          </p>
+          <p>
+            With 10 years of experience living in an international and
+            multicultural environment, I've developed strong self-motivation and
+            organizational skills. I thrive in fast-paced, multitasking
+            environments and possess an outstanding work ethic. I approach
+            challenges with creativity, enthusiasm, and humor, and prioritize
+            effectively to achieve objectives.
           </p>
 
           <a href='#contact' className='btn btn-primary'>
